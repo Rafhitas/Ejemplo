@@ -5,8 +5,8 @@ body {
   padding: 0 5%;
   font-size: 100%;
   font-family: "Noto Sans", sans-serif;
-  color: #eee9dc;
-  background: #48b379;
+  color: #000308;
+  background: #89b1dff8;
 }
 
 h2 {
@@ -21,14 +21,14 @@ h2 {
 
 margin-left: 250px;
 text-align: justify;
-color: rgb(0, 255, 255);
+color: rgb(255, 251, 0);
 border-color: #48b379;
 }
 
 .separador{
     border-width: 1.5px;
     margin-left: 200px;
-    width: 500px;
+    width: 700px;
     border-style: solid;
 }
 
@@ -56,6 +56,12 @@ border-color: #48b379;
   font-size: 0.95em;
   line-height: 20px;
   position: absolute;
+  color: #f81aed;
+  border-color: rgb(247, 247, 243);
+  border-width: 1.5px;
+  border-style: solid;
+  padding: 5px;
+  background: #f8943660;
 }
 
 .circle {
@@ -80,6 +86,7 @@ border-color: #48b379;
   border-radius: 0.5em;
   position: relative;
 }
+
 .content:before, .content:after {
   content: "";
   width: 0;
